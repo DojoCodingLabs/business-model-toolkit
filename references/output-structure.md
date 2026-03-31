@@ -44,7 +44,8 @@ Each space represents a stage of the startup lifecycle with its own validation g
 │   ├── 07-product-roadmap.md            # Roadmap, Releases, Project Plan, Dev Tools
 │   ├── 08-equipo-y-contratacion.md      # Team, Hiring Plan, Outsourcing, Ethics Code
 │   ├── 09-advisory-board.md             # Advisors, FAST Agreement, Board Setup
-│   └── 10-pitch-deck.md                 # MARP Pitch Deck (investor-ready, 12 slides)
+│   ├── 10-pitch-deck.md                 # MARP Pitch Deck (investor-ready, 15 slides)
+│   └── 11-pitch-script.md              # MARP Teleprompter Script (video pitch, 3 min, 7 slides)
 │
 ├── 04-landing-pages/                    # SPACE 4: Landing Pages (CRO)
 │   ├── [audiencia]-landing-spec.md      # Full landing page spec (12 sections)
@@ -436,8 +437,21 @@ with guiding question, relevant sections, tables, and personalized content).
 
 ### 10-pitch-deck.md
 
-The existing MARP pitch deck template — now extended to 12 slides for investor readiness,
+MARP pitch deck — 15 slides aligned with the 10 Commandments of Great Pitch Decks,
 incorporating all context from Spaces 1-3.
+
+### 11-pitch-script.md
+
+MARP teleprompter script for recording a 3-minute video pitch. Black background,
+large white text, designed for full-screen reading. The presenter advances slides
+with mouse or remote control.
+
+Rules:
+- Maximum 10 lines of text per slide (excluding blank lines and h1 header)
+- Maximum 500 words total (~3 minutes at natural speaking pace)
+- 7 slides: hook, problem, solution, differentiator, audience, impact, closing
+- No camera instructions, no timing annotations
+- Conversational tone, concrete numbers, no technical jargon
 
 ---
 
