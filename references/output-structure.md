@@ -46,6 +46,11 @@ Each space represents a stage of the startup lifecycle with its own validation g
 │   ├── 09-advisory-board.md             # Advisors, FAST Agreement, Board Setup
 │   └── 10-pitch-deck.md                 # MARP Pitch Deck (investor-ready, 12 slides)
 │
+├── 04-landing-pages/                    # SPACE 4: Landing Pages (CRO)
+│   ├── [audiencia]-landing-spec.md      # Full landing page spec (12 sections)
+│   ├── [audiencia]-landing-adr.md       # Architecture Decision Record
+│   └── [audiencia]-landing-copy.md      # Compiled copy for all sections
+│
 └── README.md                            # Business model summary with links to all spaces
 
 ./README.md                              # Project README (at root)
@@ -71,6 +76,17 @@ Before considering the startup a scale-up candidate:
 - Financial model shows **path to profitability** within 18 months
 - Legal foundation is **established** (incorporated, IP protected)
 - Team has **key roles filled** or outsourced
+
+### Gate 4: Landing Page Readiness
+Before deploying a landing page:
+- All 12 sections have **personalized copy** (no generic placeholders)
+- CTAs are **consistent** across the page (same text, minimum 3 appearances)
+- Emotional sequence is **coherent** (each section pushes toward the next)
+- Urgency mechanism is **real** (not artificial/manipulative)
+- Brand colors are **defined** (minimum: CTA, hero background, urgency, accent)
+- FAQ resolves **top 3 objections** + rephrases **3 benefits**
+- OG tags configured for social sharing
+- Tracking (GA4 + pixels) configured
 
 ---
 
