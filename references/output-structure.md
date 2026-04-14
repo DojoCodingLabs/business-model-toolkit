@@ -10,8 +10,15 @@ Each space represents a stage of the startup lifecycle with its own validation g
 │
 ├── 01-problema-hipotesis/               # SPACE 1: Problem-Hypothesis
 │   ├── 01-founder-profile.md            # Founder's Why, Life Story, Uniquely Qualified
-│   ├── 02-entrevista-problema.md        # Problem Interview (7 sections, personalized)
-│   ├── 03-perfil-expectativas-cliente.md # Customer Profile: Ikigai, Pains/Gains, JTBD
+│   ├── 02a-lluvia-supuestos.md          # Assumption Brainstorm (LCD Alvarez cap. 2): 12 prompts + Risk/Unknown matrix
+│   ├── 02-entrevista-problema.md        # Problem Interview (7 sections, personalized) — the structured GUIDE
+│   ├── entrevistas/                     # Per-interview artifacts (via customer-interview-system skill)
+│   │   ├── 00-outreach-templates.md     # Personalized outreach: email, LinkedIn, scheduling, follow-up
+│   │   ├── 00-patrones.md               # Cross-interview pattern detection (updated at each milestone)
+│   │   └── entrevista-NN-[nombre]/      # One folder per interview
+│   │       ├── notes.md                 # Raw notes (5 core Alvarez questions + observations)
+│   │       └── summary.md               # V/I/AI summary + speech pattern analysis
+│   ├── 03-perfil-expectativas-cliente.md # Customer Profile: Demografia + Traits Continuum + Ikigai + JTBD
 │   ├── 04-fuerzas-del-cliente.md        # 4 Customer Forces (Push, Pull, Anxiety, Inertia)
 │   └── 05-investigacion-mercado.md      # Market Research, Failed Solutions, Insights
 │
@@ -32,7 +39,8 @@ Each space represents a stage of the startup lifecycle with its own validation g
 │   ├── 13-metricas-de-impacto.md        # Métricas de Impacto
 │   ├── 14-relaciones-con-los-clientes.md    # Relaciones con los Clientes
 │   ├── 15-entrevista-solucion.md        # Solution Interview + Commitment Ladder
-│   └── 16-experimento-mvp.md            # MVP Experiment: Hypothesis → Test → Learn
+│   ├── 15a-scorecard-validacion-hipotesis.md # Hypothesis Validation Scorecard (LCD Alvarez cap. 6): 4 criterios
+│   └── 16-experimento-mvp.md            # MVP Experiment: Hypothesis → Test → Learn + MVP Type Selector (6 tipos, LCD cap. 7)
 │
 ├── 03-ejecucion-aceleracion/            # SPACE 3: Execution-Acceleration
 │   ├── 01-modelo-de-ingresos.md         # Revenue Models (3→2→1), Steps to Revenue
