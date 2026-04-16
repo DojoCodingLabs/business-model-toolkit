@@ -197,7 +197,7 @@ Cubrir: Demografia, **Espectros de Comportamiento (Traits Continuum)**, Ikigai,
 Dolores y Ganancias (Pains/Gains), Trabajos por Hacer del Cliente
 (JTBD -- Jobs-to-be-Done) con dimensiones de complejidad.
 
-Poblar las secciones 6-12 con respuestas de la Fase 2 -- no volver a preguntar.
+Poblar las secciones 6-12 con respuestas de la Fase 2b (Entrevista Problema) -- no volver a preguntar.
 
 **Traits Continuum (espectros de comportamiento)**: Basado en *Lean Customer Development*
 (Alvarez 2014) cap. 2. A diferencia de la demografia dura (edad, profesion), los espectros
