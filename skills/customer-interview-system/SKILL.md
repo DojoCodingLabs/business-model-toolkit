@@ -128,7 +128,12 @@ prospects (customers, clientes potenciales).
 - **OT-3**: "¿Qué incentivo podés ofrecer por 20-30 minutos de su tiempo?
   (nada / café / gift card / acceso temprano al producto / otro)"
 
-Generar `./business/01-problema-hipotesis/entrevistas/00-outreach-templates.md` con:
+Generar el archivo de outreach templates en el directorio correcto según la fase invocante:
+- **Desde Fase 2 (Problem Interview)**: `./business/01-problema-hipotesis/entrevistas/00-outreach-templates.md`
+- **Desde Fase 7 (Solution Interview)**: `./business/02-solucion-validacion/entrevistas/00-outreach-templates.md`
+- **Invocación standalone**: preguntar al usuario qué fase está validando (problema o solución) y usar el path correspondiente
+
+Path: `./business/{01-problema-hipotesis|02-solucion-validacion}/entrevistas/00-outreach-templates.md` con:
 - **Template 1**: Request de introducción (para forwardear a contactos)
 - **Template 2**: LinkedIn direct message
 - **Template 3**: Email de scheduling (con 3-4 slots de tiempo específicos)

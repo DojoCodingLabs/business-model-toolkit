@@ -40,12 +40,16 @@ Each space represents a stage of the startup lifecycle with its own validation g
 │   ├── 14-relaciones-con-los-clientes.md    # Relaciones con los Clientes
 │   ├── 15-entrevista-solucion.md        # Solution Interview + Commitment Ladder
 │   ├── 15a-scorecard-validacion-hipotesis.md # Hypothesis Validation Scorecard (LCD Alvarez cap. 6): 4 criterios
-│   └── 16-experimento-mvp.md            # MVP Experiment: Hypothesis → Test → Learn + MVP Type Selector (6 tipos, LCD cap. 7)
+│   ├── 16-experimento-mvp.md            # MVP Experiment: Hypothesis → Test → Learn + MVP Type Selector (6 tipos, LCD cap. 7)
+│   └── entrevistas/                     # Solution interviews (mismo formato que Space 1)
+│       ├── 00-outreach-templates.md     # Outreach templates para solution interviews
+│       ├── 00-patrones.md               # Cross-interview pattern detection
+│       └── entrevista-NN-[nombre]/      # Per-interview notes.md + summary.md V/I/AI
 │
 ├── 03-ejecucion-aceleracion/            # SPACE 3: Execution-Acceleration
 │   ├── 01-modelo-de-ingresos.md         # Revenue Models (3→2→1), Steps to Revenue
 │   ├── 02-unit-economics.md             # CAC, LTV, Conversion Rate, Margins
-│   ├── 03-modelo-financiero.md          # 18-month Financial Model, Launch Survival
+│   ├── 03-modelo-financiero.md          # Beyond Budgeting 3-process model (Target / Forecast / Resource Allocation) + Slidebean 14-sheet template integration (Lean Enterprise cap. 13)
 │   ├── 04-branding.md                   # Naming, Domain, Social Media, Design Spec
 │   ├── 05-fundacion-legal.md            # Incorporation, Cap Table, IP, Agreements
 │   ├── 06-go-to-market.md               # Channels, Marketing, Email Capture, Growth Goals
