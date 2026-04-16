@@ -14,9 +14,10 @@
 
 > `[Copiar la hipótesis refinada de 02a-lluvia-supuestos.md, formato: "Creemos que [tipo de persona] experimenta [tipo de problema] cuando [situación/tarea] debido a [limitación/contexto]."]`
 
-**Fuente de las entrevistas**: `./business/01-problema-hipotesis/entrevistas/`
+**Fuente de las entrevistas**: `[path dinámico según fase — p.ej. ./business/02-solucion-validacion/entrevistas/ para Fase 7, o ./business/01-problema-hipotesis/entrevistas/ para Fase 2]`
 **Fecha de evaluación**: `YYYY-MM-DD`
 **Entrevistas evaluadas**: `N entrevistas (entrevista-01 a entrevista-NN)`
+**Fase en la que se aplica**: `[Fase 2 (Problema) o Fase 7 (Solución)]`
 
 ---
 
@@ -117,11 +118,12 @@ Anti-señal:
 ## Veredicto
 
 - [ ] **VALIDADA** — los 4 criterios se cumplen en ≥70% de entrevistas.
-      **Siguiente paso**: avanzar a Fase 6 (BMC) con esta hipótesis como base.
+      **Siguiente paso según fase**:
+      - Si Fase 2 (Problema): avanzar a Fase 3 (Perfil del Cliente) o directamente a Fase 7 (Solución) si ya tenés solución candidata.
+      - Si Fase 7 (Solución): avanzar a Fase 8 (MVP Experiment) con esta hipótesis como base. Identificar earlyvangelists (Steve Blank pyramid) del pool de entrevistados como candidatos para el MVP test.
 
-- [ ] **PARCIALMENTE VALIDADA** — algunos criterios se cumplen pero no todos.
-      **Siguiente paso**: refinar la hipótesis especificando mejor el segmento o el contexto.
-      No avanzar hasta re-validar.
+- [ ] **PARCIALMENTE VALIDADA** — los 4 criterios se cumplen en 40-69% de entrevistas (zona intermedia — señales mixtas).
+      **Siguiente paso**: refinar la hipótesis especificando mejor el segmento o el contexto (probablemente el ICP está demasiado amplio). Posible split en sub-segmentos para re-validar cada uno. No avanzar a la siguiente fase hasta re-validar con la hipótesis refinada (mínimo 5 entrevistas adicionales post-refinamiento).
 
 - [ ] **INVALIDADA** — al menos uno de los criterios falla sistemáticamente (<40% de entrevistas).
       **Siguiente paso**: **pivot**. Volver a `02a-lluvia-supuestos.md`, revisar qué supuestos
@@ -130,6 +132,12 @@ Anti-señal:
 
 - [ ] **INDETERMINADA** — muestra insuficiente (<5 entrevistas con respuestas completas).
       **Siguiente paso**: realizar más entrevistas antes de concluir.
+
+> **Thresholds resumen** (explícito para evitar zona grey):
+> - ≥70% = VALIDADA
+> - 40-69% = PARCIALMENTE VALIDADA (refinar + re-validar)
+> - <40% = INVALIDADA (pivot)
+> - N<5 = INDETERMINADA (insufficient sample)
 
 ---
 
