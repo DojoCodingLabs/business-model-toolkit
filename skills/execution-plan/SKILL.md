@@ -161,6 +161,36 @@ del Founder Institute (FAST -- Founder Advisor Standard Template))"
 
 Generar `03-ejecucion-aceleracion/05-fundacion-legal.md`. Presentar. Esperar aprobacion.
 
+### Si tenes multiples ventures (N >= 3) -- cross-plugin reference
+
+BMT cubre legal structure para UN venture individual. Si sos serial entrepreneur
+con multiples ventures activas + shared services, considerar usar el plugin complementario
+**venture-studio-toolkit** (https://github.com/DojoCodingLabs/venture-studio-toolkit).
+
+Skills relevantes del venture-studio-toolkit:
+
+- **`structure-decision`**: elegir estructura macro (Skip-CR / Tostada / Cayman Sandwich /
+  Services Hub / Multi-LLC + Holding) -- 7 patrones cubiertos
+- **`services-hub-setup`**: si eleges Services Hub (patron #6), setup de MSAs (Master
+  Service Agreements) + transfer pricing methodology + IP assignment rider
+- **`liability-contagion-analysis`**: validar que las ventures NO se contaminan entre si
+  bajo single-LLC (critico si hay ventures high-liability como fintech o health)
+- **`when-to-become-studio`**: assessment de 3 modos (serial entrepreneur puro /
+  Services Hub operator / formal studio con fund)
+- **`cap-table-per-venture`**: gestion de cap tables independent cuando hay multiples LLCs
+- **`sweat-equity-agreement`**: vesting + cliff + 83(b) + clawback (extiende el FAST
+  agreement cubierto en Fase 17 de BMT)
+
+**BMT Fase 13 sigue siendo relevante por-venture**, pero la arquitectura macro (como
+multiples ventures coexisten legal y operacionalmente) la decide el venture-studio-toolkit.
+
+Typical flow combinado:
+1. BMT Fase 13 -- define legal structure DE ESTA venture (LLC Delaware, SRL CR, etc.)
+2. venture-studio-toolkit `structure-decision` -- define como ESTA venture encaja en el
+   portfolio broader (standalone? bajo Services Hub? subsidiary de Holding?)
+3. venture-studio-toolkit `services-hub-setup` (opcional) -- si Services Hub elegido,
+   setup del framework MSA entre Services LLC y esta venture
+
 ---
 
 ## PUERTA 3: Base Financiera y Legal
