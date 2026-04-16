@@ -170,7 +170,7 @@ Se personalizan al contexto del proyecto pero mantienen su estructura:
 4. **"Last time you did ______, what were you doing right before you got started?
    Once you finished, what did you do afterward?"**
    - Personalizada: `"La última vez que [hiciste la tarea], ¿qué estabas haciendo justo
-     antes de empezar? ¿Y después de terminar?"` (el contexto importa tanto como el tarea en sí)
+     antes de empezar? ¿Y después de terminar?"` (el contexto importa tanto como la tarea en sí)
 
 5. **"Is there anything else about ______ that I should have asked?"**
    - Personalizada: `"¿Hay algo más sobre [el problema/área] que debería haber preguntado y no lo hice?"`
@@ -202,7 +202,7 @@ Generar **script personalizado** con:
   familia. Si en file sharing, cómo colabora en documentos.
 - **Zero leading questions**: Nunca "¿No pensás que...?", "¿Te gustaría...?", "¿No sería genial si...?".
 - **Features → Problems**: Si el entrevistado sugiere features, redirigir: "Me decís que te
-  gustaría [feature]. ¿Podés contarme cuándo y cómo lo usarías? Sonando más atrás, parece
+  gustaría [feature]. ¿Podés contarme cuándo y cómo lo usarías? Dando un paso atrás, parece
   que tenés el problema de [X] — ¿es así?"
 
 Para las técnicas detalladas, leer `${CLAUDE_PLUGIN_ROOT}/references/customer-interview-methodology.md`.

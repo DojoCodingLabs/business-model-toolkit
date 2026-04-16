@@ -182,6 +182,7 @@ Before deploying a landing page:
 ## Validación
 
 - [Entrevista de la Solución](15-entrevista-solucion.md)
+- [Scorecard Validación de Hipótesis](15a-scorecard-validacion-hipotesis.md)
 - [Experimento MVP](16-experimento-mvp.md)
 ```
 

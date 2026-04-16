@@ -134,8 +134,12 @@ Leer plantillas:
    candidatos ideales para el MVP experiment (Fase 8).
 
 Generar ademas `02-solucion-validacion/15a-scorecard-validacion-hipotesis.md` usando el
-template. Si el veredicto es INVALIDADA o PARCIAL, NO avanzar a Fase 8 -- volver a Fase 6
-(BMC) o Fase 2a (Lluvia de Supuestos) y reformular.
+template. Routing por veredicto (debe coincidir con la guidance del scorecard template):
+
+- **VALIDADA** (≥70%): avanzar a Fase 8 (MVP Experiment) con earlyvangelists identificados como candidates para el test inicial.
+- **PARCIALMENTE VALIDADA** (40-69%): NO avanzar a Fase 8. Refinar la hipótesis (probablemente ICP demasiado amplio — considerar split en sub-segmentos) y re-validar con mínimo 5 entrevistas adicionales post-refinamiento. Solo si tras refinamiento el veredicto sigue PARCIAL, considerar volver a Fase 6 (BMC) o Fase 2a (Lluvia de Supuestos) para reformular más profundamente.
+- **INVALIDADA** (<40%): NO avanzar a Fase 8. **Pivot**: volver a Fase 2a (Lluvia de Supuestos) y revisar qué supuestos del cuadrante B (alto riesgo + desconocido) fallaron; reformular la hipótesis desde ahí. No construir el producto mientras esto no se resuelva.
+- **INDETERMINADA** (N<5): realizar más entrevistas antes de concluir.
 
 Presentar. Esperar aprobacion.
 
