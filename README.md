@@ -30,13 +30,14 @@ business-model-toolkit install --force    # Overwrite unmanaged conflicts
 
 ## What's Inside
 
-### Commands (3)
+### Commands (4)
 
 | Command | Description |
 |---------|-------------|
 | `/business-model-toolkit:brainstorm` | Full guided lifecycle — 21 phases across 3 spaces with validation gates |
 | `/business-model-toolkit:simulate` | Simulation mode — same flow but nothing is saved, everything shown in conversation |
 | `/business-model-toolkit:product-vision-audit` | Gap analysis de un modulo vs. su vision PIBER + IDCF — audita codebase contra Design Theses, Capabilities y Features declarados en el spike |
+| `/business-model-toolkit:linear-projects-setup` | Bootstrap a Linear workspace with label taxonomy, projects, milestones, and reviewer integrations. Modes: labels, projects, audit, sync, or clean slate |
 
 ### Skills (6)
 
