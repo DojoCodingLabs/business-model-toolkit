@@ -30,16 +30,17 @@ business-model-toolkit install --force    # Overwrite unmanaged conflicts
 
 ## What's Inside
 
-### Commands (2)
+### Commands (3)
 
 | Command | Description |
 |---------|-------------|
 | `/business-model-toolkit:brainstorm` | Full guided lifecycle — 21 phases across 3 spaces with validation gates |
 | `/business-model-toolkit:simulate` | Simulation mode — same flow but nothing is saved, everything shown in conversation |
+| `/business-model-toolkit:product-vision-audit` | Gap analysis de un modulo vs. su vision PIBER + IDCF — audita codebase contra Design Theses, Capabilities y Features declarados en el spike |
 
-### Skills (5)
+### Skills (6)
 
-Auto-activate by lifecycle phase — you can also invoke them directly.
+Auto-activate by lifecycle phase or invocation trigger — you can also invoke them directly.
 
 | Skill | Phases | Triggers when you... |
 |-------|--------|---------------------|
@@ -48,6 +49,7 @@ Auto-activate by lifecycle phase — you can also invoke them directly.
 | `execution-plan` | 9-13 | Say "revenue model", "unit economics", "financial model" |
 | `growth-acceleration` | 14-17 | Say "go-to-market", "product roadmap", "hiring plan" |
 | `pitch-deck` | 18 | Say "pitch deck", "investor presentation" |
+| `product-vision-audit` | post-18 / ongoing | Say "product vision audit", "PIBER audit", "IDCF gap analysis", "auditar vision de producto" |
 
 ### Agent (1)
 
