@@ -1,0 +1,16 @@
+name = "Business Model Toolkit"
+tagline = "From problem validation to [investor pitch]"
+chips = ["21 phases / 4 gates"]
+meta = "Source available · Claude Code"
+tile = "/"
+
+[card]
+kind = "ledger"
+label = "Toolkit"
+status = "v2.1.0 · BSL-1.1"
+rows = [
+  ["problem-validation", "Is the problem real?", "phases 1-5"],
+  ["solution-design", "Would someone pay?", "phases 6-8"],
+  ["execution-plan", "Revenue, unit economics, legal", "phases 9-13"],
+  ["pitch-deck", "Investor deck in MARP format", "phase 18"],
+]

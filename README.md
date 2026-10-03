@@ -1,8 +1,24 @@
-# business-model-toolkit
+<p align="center">
+  <a href="https://dojocoding.io">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="docs/assets/banner-light.svg">
+      <img alt="Business Model Toolkit by Dojo Coding: From problem validation to investor pitch" src="docs/assets/banner-light.svg" width="100%">
+    </picture>
+  </a>
+</p>
+
+# Business Model Toolkit
+
+**A Claude Code and OpenCode plugin that guides founders through 21 phases, from problem validation to investor pitch.**
 
 Interactive business model brainstorming — guided dialogue covering the full startup lifecycle from problem validation through execution and investor pitch.
 
 A Claude Code plugin by [Luis Andres Pena Castillo](https://github.com/lapc506).
+
+[![License BSL-1.1](https://img.shields.io/badge/license-BSL--1.1-FF7151?labelColor=201E3D)](LICENSE) [![Version 2.1.0](https://img.shields.io/badge/version-2.1.0-FF7151?labelColor=201E3D)](.claude-plugin/plugin.json) [![Plugin for Claude Code and OpenCode](https://img.shields.io/badge/plugin-Claude%20Code%20%2F%20OpenCode-201E3D?labelColor=201E3D)](#install-claude-code)
+
+[Get started](#install-claude-code) · [What's inside](#whats-inside) · [The lifecycle](#the-lifecycle) · [Report an issue](https://github.com/DojoCodingLabs/business-model-toolkit/issues/new)
 
 ## Install (Claude Code)
 
@@ -167,4 +183,8 @@ business-model-toolkit/
 
 ## License
 
-[Business Source License 1.1](./LICENSE) — you may use, modify, and redistribute for non-competitive purposes. Converts to Non-Profit OSL 3.0 after 5 years.
+[Business Source License 1.1](./LICENSE) — you may use, modify, and redistribute for non-competitive purposes. Converts to Non-Profit OSL 3.0 after 5 years. Built by [Dojo Coding](https://dojocoding.io).
+
+<p align="center">
+  <a href="https://dojocoding.io"><img src="docs/assets/dojocoding-mark.png" alt="Dojo Coding" width="48"></a>
+</p>
